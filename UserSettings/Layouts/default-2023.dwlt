@@ -324,7 +324,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Workshop_Sample/Materials
+    - Assets/UnityGameEffect_Book/FX/Materials
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -334,16 +334,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Workshop_Sample/Materials
+  - Assets/UnityGameEffect_Book/FX/Materials
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\hirok\Documents\Unity\Effect_practice
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 2a6e0000
-    m_LastClickedID: 28202
-    m_ExpandedIDs: 000000008e6c0000906c000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 766e0000
+    m_LastClickedID: 28278
+    m_ExpandedIDs: 000000008e6c0000906c00006a6e00006e6e000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -398,7 +398,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300002a6f0000bc6e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -517,9 +517,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 94faffff
-      m_LastClickedID: -1388
-      m_ExpandedIDs: 3cfaffff94faffffa4faffffc4faffff1cfbffff1efbffff
+      m_SelectedIDs: ceebffff
+      m_LastClickedID: -5170
+      m_ExpandedIDs: e4f0ffff92f1ffff72f2ffff78f2ffff1efbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -955,9 +955,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0.05000019, z: 0}
+    m_Target: {x: 0, y: 1.3001251, z: -0.00000011920929}
     speed: 2
-    m_Value: {x: 0, y: 0.05000019, z: 0}
+    m_Value: {x: 0, y: 1.3001249, z: -0.00000011920927}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1007,9 +1007,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_Size:
-    m_Target: 3.5808563
+    m_Target: 3.615379
     speed: 2
-    m_Value: 3.5808563
+    m_Value: 3.6153784
   m_Ortho:
     m_Target: 0
     speed: 2
