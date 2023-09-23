@@ -4,7 +4,7 @@ OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ja' Physical Memory: 8118 M
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2023.1.7f1-x86_64\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2023.1.7f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
@@ -15,7 +15,7 @@ C:/Users/hirok/Documents/Unity/Effect_practice
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62481
+58595
 Successfully changed project path to: C:/Users/hirok/Documents/Unity/Effect_practice
 C:/Users/hirok/Documents/Unity/Effect_practice
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ C:/Users/hirok/Documents/Unity/Effect_practice
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [10168] Host "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 431235448 [EditorId] 431235448 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-GADUI32U) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [17652] Host "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 2858385162 [EditorId] 2858385162 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-GADUI32U) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [10168] Host "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 431235448 [EditorId] 431235448 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-GADUI32U) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17652] Host "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 2858385162 [EditorId] 2858385162 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-GADUI32U) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 43.63 ms, found 3 plugins.
+Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 42.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.1.7f1 (4f4e359ec3fc)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.1.7f1-x86_64/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.1.7f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/hirok/Documents/Unity/Effect_practice/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
@@ -66,10 +66,10 @@ Direct3D:
     VRAM:     4059 MB
     Driver:   27.20.100.9416
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.1.7f1-x86_64/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.1.7f1-x86_64/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.1.7f1-x86_64/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.1.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.1.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -82,42 +82,42 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.1.7f1-x86_64/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009100 seconds.
-- Loaded All Assemblies, in  0.981 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008626 seconds.
+- Loaded All Assemblies, in  0.950 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  0.645 seconds
-Domain Reload Profiling: 1624ms
-	BeginReloadAssembly (411ms)
+- Finished resetting the current domain, in  1.440 seconds
+Domain Reload Profiling: 2428ms
+	BeginReloadAssembly (319ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (3ms)
-	RebuildCommonClasses (88ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (110ms)
-	LoadAllAssembliesAndSetupDomain (347ms)
-		LoadAssemblies (401ms)
+		CreateAndSetChildDomain (5ms)
+	RebuildCommonClasses (83ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (113ms)
+	LoadAllAssembliesAndSetupDomain (401ms)
+		LoadAssemblies (305ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (338ms)
-			TypeCache.Refresh (336ms)
-				TypeCache.ScanAssembly (297ms)
+		AnalyzeDomain (390ms)
+			TypeCache.Refresh (387ms)
+				TypeCache.ScanAssembly (362ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (647ms)
+	FinalizeReload (1483ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (530ms)
+		SetupLoadedEditorAssemblies (1239ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (13ms)
-			ProcessInitializeOnLoadAttributes (359ms)
-			ProcessInitializeOnLoadMethodAttributes (134ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (16ms)
+			ProcessInitializeOnLoadAttributes (774ms)
+			ProcessInitializeOnLoadMethodAttributes (423ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -140,50 +140,50 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image C:\Users\hirok\Documents\Unity\Effect_practice\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\hirok\Documents\Unity\Effect_practice\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  3.101 seconds
-Refreshing native plugins compatible for Editor in 5.85 ms, found 3 plugins.
+- Loaded All Assemblies, in  2.292 seconds
+Refreshing native plugins compatible for Editor in 12.29 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.798 seconds
-Domain Reload Profiling: 4897ms
-	BeginReloadAssembly (742ms)
+- Finished resetting the current domain, in  1.490 seconds
+Domain Reload Profiling: 3778ms
+	BeginReloadAssembly (746ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (75ms)
-	RebuildCommonClasses (108ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (84ms)
-	LoadAllAssembliesAndSetupDomain (2140ms)
-		LoadAssemblies (1504ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (1380ms)
+		LoadAssemblies (914ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (848ms)
-			TypeCache.Refresh (790ms)
-				TypeCache.ScanAssembly (746ms)
-			ScanForSourceGeneratedMonoScriptInfo (41ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (1800ms)
+		AnalyzeDomain (725ms)
+			TypeCache.Refresh (669ms)
+				TypeCache.ScanAssembly (643ms)
+			ScanForSourceGeneratedMonoScriptInfo (37ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1491ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1004ms)
+		SetupLoadedEditorAssemblies (875ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (22ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (325ms)
-			ProcessInitializeOnLoadAttributes (583ms)
-			ProcessInitializeOnLoadMethodAttributes (57ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (169ms)
+			ProcessInitializeOnLoadAttributes (627ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (11ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (24ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 8.33 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (19ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 15.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5001 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 69 unused Assets / (1.5 MB). Loaded Objects now: 5537.
-Memory consumption went from 206.5 MB to 205.1 MB.
-Total: 11.833700 ms (FindLiveObjects: 1.413600 ms CreateObjectMapping: 0.758300 ms MarkObjects: 8.679100 ms  DeleteObjects: 0.977700 ms)
+Unloading 69 unused Assets / (1.5 MB). Loaded Objects now: 5539.
+Memory consumption went from 207.0 MB to 205.5 MB.
+Total: 14.790200 ms (FindLiveObjects: 0.836000 ms CreateObjectMapping: 0.965100 ms MarkObjects: 10.769200 ms  DeleteObjects: 2.213600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
@@ -200,57 +200,137 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 186721.517616 seconds.
-  path: Assets/UnityGameEffect_Book/FX/Scenes
-  artifactKey: Guid(70c3163d2e9039147b676eab00f3d1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityGameEffect_Book/FX/Scenes using Guid(70c3163d2e9039147b676eab00f3d1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c1fe808c876e6df89aba9bc1da2fc47') in 0.006432 seconds
+  Time since last request: 771951.663843 seconds.
+  path: Assets/UnityGameEffect_Book/FX/Materials/eff_water1_add.mat
+  artifactKey: Guid(06d31add080b044bcadc575258f22c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityGameEffect_Book/FX/Materials/eff_water1_add.mat using Guid(06d31add080b044bcadc575258f22c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb20052dbffb3c191b3ede589cabf1a') in 0.018078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 44.138584 seconds.
+  path: Assets/UnityGameEffect_Book/FX/Textures/eff_water1.png
+  artifactKey: Guid(013763170fd3e4e2abbe24014d2072cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityGameEffect_Book/FX/Textures/eff_water1.png using Guid(013763170fd3e4e2abbe24014d2072cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '457a4fe2eb1a35a54c470a834ef7930b') in 0.004920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 956.143894 seconds.
+  path: Assets/UnityGameEffect_Book/FX/Scenes/Chapter4_2_Demo.unity
+  artifactKey: Guid(65d1b7b15db784feb8ebcd3238f80f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityGameEffect_Book/FX/Scenes/Chapter4_2_Demo.unity using Guid(65d1b7b15db784feb8ebcd3238f80f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5704468566ea16ba8e020d73ab0a0e51') in 0.001784 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 8.038349 seconds.
-  path: Assets/UnityGameEffect_Book/FX/Scenes/Chapter3_1_Demo.unity
-  artifactKey: Guid(4431e27bf1bb24096a64af1ff040b1ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityGameEffect_Book/FX/Scenes/Chapter3_1_Demo.unity using Guid(4431e27bf1bb24096a64af1ff040b1ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a8ea0f8ff5ff5db0977fa3bde7defe4') in 0.001449 seconds
+  Time since last request: 1106.117047 seconds.
+  path: Assets/UnityGameEffect_Book/FX/Scenes/Chapter4_3_Demo.unity
+  artifactKey: Guid(1feca11dce7f7482f8a7ff06a1da9378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityGameEffect_Book/FX/Scenes/Chapter4_3_Demo.unity using Guid(1feca11dce7f7482f8a7ff06a1da9378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c3c75346a2ac0a1bef9ff5aefe6044e') in 0.004058 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 402.172126 seconds.
-  path: Assets/UnityGameEffect_Book/FX/Materials/eff_aura1_add.mat
-  artifactKey: Guid(55a4448aede1d4539ab28c1c395f8396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityGameEffect_Book/FX/Materials/eff_aura1_add.mat using Guid(55a4448aede1d4539ab28c1c395f8396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f2eef6cc87fddf461c3ed1a2aac66f2') in 0.010748 seconds
+  Time since last request: 27.102204 seconds.
+  path: Assets/UnityGameEffect_Book/FX/Materials/eff_par1_alpha.mat
+  artifactKey: Guid(4ed428a28ff154697af97bef40812cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityGameEffect_Book/FX/Materials/eff_par1_alpha.mat using Guid(4ed428a28ff154697af97bef40812cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac2e77c5276b0ab1e25c0ade945d510') in 0.015273 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 72.395769 seconds.
-  path: Assets/UnityGameEffect_Book/FX/Materials/eff_par1_add.mat
-  artifactKey: Guid(56e6f4cb1d27e4442a785c8b9ab80d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityGameEffect_Book/FX/Materials/eff_par1_add.mat using Guid(56e6f4cb1d27e4442a785c8b9ab80d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c4092e6668a02386e3253ab9c346af') in 0.002851 seconds
+  Time since last request: 574.344132 seconds.
+  path: Assets/UnityGameEffect_Book/FX/Scenes/Chapter4_4_Demo.unity
+  artifactKey: Guid(5eb05bfbdbdee4df498dfece52e9fca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityGameEffect_Book/FX/Scenes/Chapter4_4_Demo.unity using Guid(5eb05bfbdbdee4df498dfece52e9fca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4487d9579f234ce3cf9440fed33b0d3c') in 0.006015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 48.563001 seconds.
+  path: Assets/UnityGameEffect_Book/FX/Materials/eff_snow1_alpha.mat
+  artifactKey: Guid(2f92a527455da47d6992cc3cb78af94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityGameEffect_Book/FX/Materials/eff_snow1_alpha.mat using Guid(2f92a527455da47d6992cc3cb78af94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3d747d6bc5a9be65012e75a20fa6fc') in 0.006665 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 27.188013 seconds.
-  path: Assets/UnityGameEffect_Book/FX/Materials/eff_smoke1_alpha.mat
-  artifactKey: Guid(5aef12322215546f7901bf94b35bbeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityGameEffect_Book/FX/Materials/eff_smoke1_alpha.mat using Guid(5aef12322215546f7901bf94b35bbeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c379d0e77a0b610b5e7135adecd3b44') in 0.003156 seconds
+  Time since last request: 519.465230 seconds.
+  path: Assets/UnityGameEffect_Book/FX/Scenes/Chapter4_5_Demo.unity
+  artifactKey: Guid(706c15e56546e437aa55bdded0a8a5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityGameEffect_Book/FX/Scenes/Chapter4_5_Demo.unity using Guid(706c15e56546e437aa55bdded0a8a5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a4f7391018500a497aaa7f2c0e539c') in 0.005402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 19.071710 seconds.
+  path: Assets/UnityGameEffect_Book/FX/Materials/eff_petal1_alpha.mat
+  artifactKey: Guid(0e287276d5896420ebb9b2a7471a73d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityGameEffect_Book/FX/Materials/eff_petal1_alpha.mat using Guid(0e287276d5896420ebb9b2a7471a73d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e0a9b4c6c8ae7fded00efab94b89e1') in 0.007020 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 36.394304 seconds.
-  path: Assets/UnityGameEffect_Book/FX/Textures/eff_aura1.png
-  artifactKey: Guid(1e9ff56799d6244c8bcb759bcbab8eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityGameEffect_Book/FX/Textures/eff_aura1.png using Guid(1e9ff56799d6244c8bcb759bcbab8eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad01e22184156fea0a73f4e063e15191') in 0.003823 seconds
+  Time since last request: 24.585162 seconds.
+  path: Assets/UnityGameEffect_Book/FX/Textures/eff_petal1.png
+  artifactKey: Guid(91c9170d3823b4402a71d7f959fa84f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityGameEffect_Book/FX/Textures/eff_petal1.png using Guid(91c9170d3823b4402a71d7f959fa84f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db80a62d9227e8b4586367e1c31aed64') in 0.031098 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000565 seconds.
-  path: Assets/UnityGameEffect_Book/FX/Textures/eff_smoke1.png
-  artifactKey: Guid(2d3f0e7f6295648a7b7d21fd2288950c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityGameEffect_Book/FX/Textures/eff_smoke1.png using Guid(2d3f0e7f6295648a7b7d21fd2288950c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d412826da2e4bb2dc24065231670a95') in 0.002187 seconds
+  Time since last request: 293.218921 seconds.
+  path: Assets/UnityGameEffect_Book/FX/Scenes/Chapter4_6_Demo.unity
+  artifactKey: Guid(24b800ba30074401bbffe2cdca8ea577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityGameEffect_Book/FX/Scenes/Chapter4_6_Demo.unity using Guid(24b800ba30074401bbffe2cdca8ea577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daccb17ea252a0e34fecad9b08207e7f') in 0.003916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 20.233721 seconds.
+  path: Assets/UnityGameEffect_Book/FX/Materials/eff_parline1_alpha.mat
+  artifactKey: Guid(5d3e84962d77e4aa0a44ea27475b0804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityGameEffect_Book/FX/Materials/eff_parline1_alpha.mat using Guid(5d3e84962d77e4aa0a44ea27475b0804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c6a8dd01e958d033b38d29dd2d81ce6') in 0.006655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 17.531600 seconds.
+  path: Assets/UnityGameEffect_Book/FX/Textures/eff_parline1.png
+  artifactKey: Guid(9b3ce67d3c76c4db3b168ccee36be1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityGameEffect_Book/FX/Textures/eff_parline1.png using Guid(9b3ce67d3c76c4db3b168ccee36be1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cdfed3745ac25243bd0fa588345b92b') in 0.004126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 330.420163 seconds.
+  path: Assets/UnityGameEffect_Book/FX/Scenes/Chapter4_7_Demo.unity
+  artifactKey: Guid(931c870f73c154a458e5f77629fcb128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityGameEffect_Book/FX/Scenes/Chapter4_7_Demo.unity using Guid(931c870f73c154a458e5f77629fcb128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '171d27531f332a60dffec54e36cd9536') in 0.004339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 19.751619 seconds.
+  path: Assets/UnityGameEffect_Book/FX/Models/Spring_Line_00.FBX
+  artifactKey: Guid(bf5abfe3d091542819cbb016d788d4b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityGameEffect_Book/FX/Models/Spring_Line_00.FBX using Guid(bf5abfe3d091542819cbb016d788d4b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb0003b82381107c82fee92c7a76c87') in 0.038781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 45.378758 seconds.
+  path: Assets/UnityGameEffect_Book/FX/Textures/eff_windline1.png
+  artifactKey: Guid(88d10a48492104579999d8b613e31223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityGameEffect_Book/FX/Textures/eff_windline1.png using Guid(88d10a48492104579999d8b613e31223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b881aec3062b90d414fdaf7b41a298') in 0.010105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 9.251622 seconds.
+  path: Assets/UnityGameEffect_Book/FX/Materials/eff_windline1_add.mat
+  artifactKey: Guid(cdf91b60c0a4f463d9079ca1bb2924cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityGameEffect_Book/FX/Materials/eff_windline1_add.mat using Guid(cdf91b60c0a4f463d9079ca1bb2924cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51483108abacd79374019f973906770f') in 0.008340 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
